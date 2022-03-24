@@ -1,0 +1,31 @@
+h3 {
+    
+    border-radius: 20px 20px 20px 20px;
+    border: 1px solid;
+    padding: 5px;
+    margin: auto;
+    background-color:blanchedalmond;
+    width: 200px;
+    text-align: center;
+}
+
+.box1 {
+    border:1px solid;
+    padding-top:10px;
+    width: 250px;
+    border-radius: 20px 20px 20px 20px;
+    background-color:pink;
+    
+}
+
+.box2 {
+    display: flex;
+    align-items: center;
+    background-color:cornflowerblue;
+    border-radius: 0px 0px 20px 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-width: 250px;
+    
+}
+
