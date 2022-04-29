@@ -1,0 +1,252 @@
+body {
+    margin: 100px;
+}
+
+
+#hoverline:hover {
+    color: #F7DFE2;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+h1 {
+    text-align: center;
+}
+
+.layout-container {
+    display: flex;
+    flex-direction: column;
+    width: 1300px;
+    height: 1000px;
+    justify-content: space-evenly;
+}
+
+.layout-title {
+    display: flex;
+    justify-content: center;
+    flex-basis: 30%;
+}
+
+.title {
+    background-color: lightpink;
+    width: 1300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.layout-name {
+    display: flex;
+    justify-content: center;
+}
+
+.name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 50px;
+    border-radius: 30px 30px 30px 30px;
+    border: 1px solid lightpink;
+    margin: 0 50px;
+}
+
+.name1 {
+    flex-basis: 35%;
+    margin-right: 50px;
+}
+
+.name2 {
+    flex-basis: 60%;
+}
+
+.layout-intro {
+    display: flex;
+    justify-content: space-evenly;
+    flex-basis: 40%;
+}
+
+/*  */
+
+.line1 {
+    background-color: lightpink;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: beige;
+    flex-basis: 35%;
+}
+
+.right {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: lightpink;
+    flex-basis: 60%;
+}
+
+p {
+    text-align: center;
+}
+
+
+/*  */
+
+.layout-contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*  */
+
+.titleline {
+    text-align: center;
+    margin: 50px;
+}
+
+/*  헤럴드 페이지 */
+
+.layout-herald {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    width: 1300px;
+    height: 1000px;
+    justify-content: space-evenly;
+}
+
+.layout-firstline{
+    display: flex;
+    justify-content: center;
+    flex-basis: 30%;
+}
+
+.firstline {
+    background-color: white;
+    width: 97%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.layout-secondline {
+    display: flex;
+    justify-content: space-evenly;
+    flex-basis: 30%;
+}
+
+.secondline {
+    background-color: white;
+    display: flex;
+    width: 30%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.layout-thirdline {
+    display: flex;
+    justify-content: space-evenly;
+    flex-basis: 30%;
+}
+
+.thirdline {
+    background-color: white;
+    display: flex;
+    width: 30%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* 블로그 페이지 */
+
+.titleline {
+    text-align: center;
+    margin: 50px;
+}
+
+.rank1 {
+    text-align: center;
+}
+
+.category {
+    display: inline-block;
+    text-align: left;
+    margin: 10px 100px;
+}
+
+.contact {
+    padding: 5px;
+}
+
+/* 모드변경 */
+
+* {
+    box-sizing: border-box;
+}
+
+.label {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 50px;
+    height: 26px;
+    background-color: #111;
+    border-radius: 50px;
+    transform: scale(1.5);
+    position: relative;
+}
+
+.ball {
+    position: absolute;
+    background-color: #fff;
+    border-radius: 50%;
+    width: 22px;
+    height: 22px;
+    top: 2px;
+    left: 2px;
+    transition: transform 0.2s ease-out;
+}
+
+body.dark {
+    background: #292c35;
+}
+
+body.dark p {
+    color: #fff;
+}
+
+.checkbox:checked + .label .ball {
+    transform: translateX(24px);
+}
+
+.checkbox {
+    position: absolute;
+    opacity: 0;
+}
+
+.fa-moon {
+    color: #f1c40f;
+}
+
+.fa-sun {
+    color: #f39c12;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 100px;
+}
