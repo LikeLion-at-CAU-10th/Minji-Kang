@@ -1,0 +1,38 @@
+body {
+    margin: 50px;
+}
+
+.title {
+    border-radius: 60px 60px 60px 60px;
+    border: 4px burlywood solid;
+    width: 500px;
+    height: 130px;
+    margin-bottom: 30px;
+}
+
+h1 {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.line1 {
+    background-color: beige;
+    display: flex;
+    justify-content: space-evenly;
+    width: 1800px;
+    height: 400px;
+    padding: 35px;
+}
+
+.line2 {
+    background-color: beige;
+    display: flex;
+    justify-content: space-evenly;
+    width: 1800px;
+    height: 400px;
+    padding: 35px;
+}
+
+h3 {
+    text-align: center;
+}
