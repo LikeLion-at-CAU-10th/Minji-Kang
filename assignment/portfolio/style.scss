@@ -1,0 +1,7 @@
+// scss-mixin, include
+
+@mixin test {
+    margin: 100px;
+}
+
+body {@include test();}
